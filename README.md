@@ -1,2 +1,2 @@
 # helix-core
-Core assets/data used across all reositories
+Core assets/data used across all repositories
