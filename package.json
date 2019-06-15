@@ -1,0 +1,26 @@
+{
+  "name": "@helix-design-system/helix-core",
+  "version": "0.0.1",
+  "description": "Core asset/data used across all Helix projects",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "build": "scripts/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelixDesignSystem/helix-core.git"
+  },
+  "author": "Ryan A. Johnson <rhino.citguy@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/HelixDesignSystem/helix-core/issues"
+  },
+  "homepage": "https://github.com/HelixDesignSystem/helix-core#readme",
+  "devDependencies": {
+    "fs-extra": "^8.0.1",
+    "globby": "^9.2.0",
+    "js-yaml": "^3.13.1"
+  }
+}

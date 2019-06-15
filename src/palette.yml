@@ -1,0 +1,230 @@
+description: Helix '1.0' palette
+colors:
+  ## ===== BLUE =====
+  - &blue050
+    name: Blue 50
+    css: "#e1eef9"
+  - &blue100
+    name: Blue 100
+    css: "#bbdefb"
+  - &blue500
+    name: Blue 500
+    css: "#3391ff"
+  - &blue700
+    name: Blue 700
+    css: "#0d74d1"
+  - &blue900
+    name: Blue 900
+    css: "#0d47a1"
+
+  ## ===== CYAN =====
+  - &cyan050
+    name: Cyan 050
+    css: "#e4f9f9"
+  - &cyan100
+    name: Cyan 100
+    css: "#b6e3eb"
+  - &cyan500
+    name: Cyan 500
+    css: "#16b9d4"
+  - &cyan700
+    name: Cyan 700
+    css: "#0e94a6"
+  - &cyan900
+    name: Cyan 900
+    css: "#0c7c84"
+
+  ## ===== GRAY =====
+  - &gray0
+    name: Gray 0
+    css: "#ffffff"
+  - &gra025
+    name: Gray 025
+    css: "#fafafa"
+  - &gray050
+    name: Gray 050
+    css: "#f5f5f5"
+  - &gray100
+    name: Gray 100
+    css: "#eeeeee"
+  - &gray200
+    name: Gray 200
+    css: "#e7e7e7"
+  - &gray300
+    name: Gray 300
+    css: "#e0e0e0"
+  - &gray400
+    name: Gray 400
+    css: "#d8d8d8"
+  - &gray500
+    name: Gray 500
+    css: "#bdbdbd"
+  - &gray600
+    name: Gray 600
+    css: "#9e9e9e"
+  - &gray700
+    name: Gray 700
+    css: "#757575"
+  - &gray750
+    name: Gray 750
+    css: "#6b6b6b"
+  - &gray800
+    name: Gray 800
+    css: "#616161"
+  - &gray900
+    name: Gray 900
+    css: "#424242"
+  - &gray950
+    name: Gray 950
+    css: "#333333"
+  - &gray975
+    name: Gray 975
+    css: "#212121"
+  - &gray1000
+    name: Gray 1000
+    css: "#000000"
+
+  ## ===== GREEN =====
+  - &green100
+    name: Green 100
+    css: "#c8e6c9"
+  - &green500
+    name: Green 500
+    css: "#4caf51"
+  - &green900
+    name: Green 900
+    css: "#2e7d32"
+
+  ## ===== MAGENTA =====
+  - &magenta050
+    name: Magenta 50
+    css: "#fce0eb"
+  - &magenta100
+    name: Magenta 100
+    css: "#f8bbd0"
+  - &magenta500
+    name: Magenta 500
+    css: "#ec407a"
+  - &magenta700
+    name: Magenta 700
+    css: "#c2185b"
+  - &magenta900
+    name: Magenta 900
+    css: "#a5134e"
+
+  ## ===== ORANGE =====
+  - &orange050
+    name: Orange 50
+    css: "#f8e1bb"
+  - &orange100
+    name: Orange 100
+    css: "#fdd179"
+  - &orange500
+    name: Orange 500
+    css: "#f57c00"
+  - &orange700
+    name: Orange 700
+    css: "#dd6105"
+  - &orange900
+    name: Orange 900
+    css: "#c15206"
+
+  ## ===== PURPLE =====
+  - &purple050
+    name: Purple 50
+    css: "#adb7dd"
+  - &purple100
+    name: Purple 100
+    css: "#6676bc"
+  - &purple500
+    name: Purple 500
+    css: "#3b44a9"
+  - &purple700
+    name: Purple 700
+    css: "#2e3187"
+  - &purple900
+    name: Purple 900
+    css: "#232968"
+
+  ## ===== RED =====
+  - &red100
+    name: Red 100
+    css: "#ffcdd2"
+  - &red500
+    name: Red 500
+    css: "#f44336"
+  - &red900
+    name: Red 900
+    css: "#d32f2f"
+
+  ## ===== YELLOW =====
+  - &yellow100
+    name: Yellow 100
+    css: "#fff9c4"
+  - &yellow500
+    name: Yellow 500
+    css: "#ffeb3b"
+  - &yellow900
+    name: Yellow 900
+    css: "#fbc02d"
+
+families:
+  blue:
+    - *blue050
+    - *blue100
+    - *blue500
+    - *blue700
+    - *blue900
+  cyan:
+    - *cyan050
+    - *cyan100
+    - *cyan500
+    - *cyan700
+    - *cyan900
+  gray:
+    - *gray0
+    - *gra025
+    - *gray050
+    - *gray100
+    - *gray200
+    - *gray300
+    - *gray400
+    - *gray500
+    - *gray600
+    - *gray700
+    - *gray750
+    - *gray800
+    - *gray900
+    - *gray950
+    - *gray975
+    - *gray1000
+  green:
+    - *green100
+    - *green500
+    - *green900
+  magenta:
+    - *magenta050
+    - *magenta100
+    - *magenta500
+    - *magenta700
+    - *magenta900
+  orange:
+    - *orange050
+    - *orange100
+    - *orange500
+    - *orange700
+    - *orange900
+  purple:
+    - *purple050
+    - *purple100
+    - *purple500
+    - *purple700
+    - *purple900
+  red:
+    - *red100
+    - *red500
+    - *red900
+  yellow:
+    - *yellow100
+    - *yellow500
+    - *yellow900

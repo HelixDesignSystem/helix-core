@@ -1,0 +1,916 @@
+description: Helix '2.0' palette
+colors:
+  ## ===== AMBER =====
+  - &amber100
+    name: Amber 100
+    css: "#f7e5c8"
+  - &amber200
+    name: Amber 200
+    css: "#f8d1b0"
+  - &amber300
+    name: Amber 300
+    css: "#f4b989"
+  - &amber400
+    name: Amber 400
+    css: "#f1a261"
+  - &amber500
+    name: Amber 500
+    css: "#ed8b39"
+  - &amber600
+    name: Amber 600
+    css: "#be6f2d"
+  - &amber700
+    name: Amber 700
+    css: "#8e5323"
+  - &amber800
+    name: Amber 800
+    css: "#6b3e1a"
+  - &amber900
+    name: Amber 900
+    css: "#452811"
+
+  ## ===== AZURE =====
+  - &azure100
+    name: Azure 100
+    css: "#afceed"
+  - &azure200
+    name: Azure 200
+    css: "#82b2e3"
+  - &azure300
+    name: Azure 300
+    css: "#639bd4"
+  - &azure400
+    name: Azure 400
+    css: "#3a7dc2"
+  - &azure500
+    name: Azure 500
+    css: "#185ba0"
+  - &azure600
+    name: Azure 600
+    css: "#104d8c"
+  - &azure700
+    name: Azure 700
+    css: "#0e4278"
+  - &azure800
+    name: Azure 800
+    css: "#0b345e"
+  - &azure900
+    name: Azure 900
+    css: "#082542"
+
+  ## ===== BLUE =====
+  - &blue100
+    name: Blue 100
+    css: "#b4d9f0"
+  - &blue200
+    name: Blue 200
+    css: "#8ec6e8"
+  - &blue300
+    name: Blue 300
+    css: "#62aede"
+  - &blue400
+    name: Blue 400
+    css: "#4599cc"
+  - &blue500
+    name: Blue 500
+    css: "#0077bf"
+  - &blue600
+    name: Blue 600
+    css: "#0065a1"
+  - &blue700
+    name: Blue 700
+    css: "#055687"
+  - &blue800
+    name: Blue 800
+    css: "#064266"
+  - &blue900
+    name: Blue 900
+    css: "#08314a"
+
+  ## ===== CHARTREUSE =====
+  - &chartreuse100
+    name: Chartreuse 100
+    css: "#e4efc6"
+  - &chartreuse200
+    name: Chartreuse 200
+    css: "#cfdfa1"
+  - &chartreuse300
+    name: Chartreuse 300
+    css: "#b9ce7b"
+  - &chartreuse400
+    name: Chartreuse 400
+    css: "#a4be56"
+  - &chartreuse500
+    name: Chartreuse 500
+    css: "#8ead30"
+  - &chartreuse600
+    name: Chartreuse 600
+    css: "#779128"
+  - &chartreuse700
+    name: Chartreuse 700
+    css: "#607420"
+  - &chartreuse800
+    name: Chartreuse 800
+    css: "#485817"
+  - &chartreuse900
+    name: Chartreuse 900
+    css: "#313b0f"
+
+  ## ===== CRIMSON =====
+  - &crimson100
+    name: Crimson 100
+    css: "#f7c4d3"
+  - &crimson200
+    name: Crimson 200
+    css: "#e698b2"
+  - &crimson300
+    name: Crimson 300
+    css: "#cc728e"
+  - &crimson400
+    name: Crimson 400
+    css: "#ad556f"
+  - &crimson500
+    name: Crimson 500
+    css: "#923753"
+  - &crimson600
+    name: Crimson 600
+    css: "#7d2641"
+  - &crimson700
+    name: Crimson 700
+    css: "#631c31"
+  - &crimson800
+    name: Crimson 800
+    css: "#4d1323"
+  - &crimson900
+    name: Crimson 900
+    css: "#380916"
+
+  ## ===== GRAY =====
+  - &gray0
+    name: Gray 0
+    css: "#ffffff"
+  - &gray025
+    name: Gray 025
+    css: "#fcfcfc"
+  - &gray050
+    name: Gray 050
+    css: "#eeeeee"
+  - &gray100
+    name: Gray 100
+    css: "#e5e5e5"
+  - &gray200
+    name: Gray 200
+    css: "#cccccc"
+  - &gray300
+    name: Gray 300
+    css: "#b2b2b2"
+  - &gray400
+    name: Gray 400
+    css: "#999999"
+  - &gray500
+    name: Gray 500
+    css: "#808080"
+  - &gray600
+    name: Gray 600
+    css: "#737373"
+  - &gray650
+    name: Gray 650
+    css: "#666666"
+  - &gray700
+    name: Gray 700
+    css: "#4d4d4d"
+  - &gray800
+    name: Gray 800
+    css: "#2e2e2e"
+  - &gray900
+    name: Gray 900
+    css: "#1a1a1a"
+  - &gray950
+    name: Gray 950
+    css: "#111111"
+  - &gray975
+    name: Gray 975
+    css: "#090909"
+  - &gray1000
+    name: Gray 1000
+    css: "#000000"
+
+  ## ===== GREEN =====
+  - &green100
+    name: Green 100
+    css: "#d1edd1"
+  - &green200
+    name: Green 200
+    css: "#abdbab"
+  - &green300
+    name: Green 300
+    css: "#85c885"
+  - &green400
+    name: Green 400
+    css: "#5fb55f"
+  - &green500
+    name: Green 500
+    css: "#39a339"
+  - &green600
+    name: Green 600
+    css: "#328b32"
+  - &green700
+    name: Green 700
+    css: "#2b722b"
+  - &green800
+    name: Green 800
+    css: "#235a23"
+  - &green900
+    name: Green 900
+    css: "#1c421c"
+
+  ## ===== INDIGO =====
+  - &indigo100
+    name: Indigo 100
+    css: "#acbaeb"
+  - &indigo200
+    name: Indigo 200
+    css: "#8599de"
+  - &indigo300
+    name: Indigo 300
+    css: "#647ec7"
+  - &indigo400
+    name: Indigo 400
+    css: "#4a61a8"
+  - &indigo500
+    name: Indigo 500
+    css: "#243a82"
+  - &indigo600
+    name: Indigo 600
+    css: "#1e316b"
+  - &indigo700
+    name: Indigo 700
+    css: "#192a5c"
+  - &indigo800
+    name: Indigo 800
+    css: "#162552"
+  - &indigo900
+    name: Indigo 900
+    css: "#101a3b"
+
+  ## ===== ORANGE =====
+  - &orange100
+    name: Orange 100
+    css: "#fadfc6"
+  - &orange200
+    name: Orange 200
+    css: "#f9c4ac"
+  - &orange300
+    name: Orange 300
+    css: "#f5a782"
+  - &orange400
+    name: Orange 400
+    css: "#f28959"
+  - &orange500
+    name: Orange 500
+    css: "#ef6c2f"
+  - &orange600
+    name: Orange 600
+    css: "#bf5626"
+  - &orange700
+    name: Orange 700
+    css: "#8f411c"
+  - &orange800
+    name: Orange 800
+    css: "#692f16"
+  - &orange900
+    name: Orange 900
+    css: "#451f0e"
+
+  ## ===== PURPLE =====
+  - &purple100
+    name: Purple 100
+    css: "#bfb9e8"
+  - &purple200
+    name: Purple 200
+    css: "#9d93cf"
+  - &purple300
+    name: Purple 300
+    css: "#7e73bf"
+  - &purple400
+    name: Purple 400
+    css: "#625899"
+  - &purple500
+    name: Purple 500
+    css: "#453c81"
+  - &purple600
+    name: Purple 600
+    css: "#383169"
+  - &purple700
+    name: Purple 700
+    css: "#2e285c"
+  - &purple800
+    name: Purple 800
+    css: "#231d4f"
+  - &purple900
+    name: Purple 900
+    css: "#1a143b"
+
+  ## ===== RED =====
+  - &red100
+    name: Red 100
+    css: "#ffcfc9"
+  - &red200
+    name: Red 200
+    css: "#e5a19c"
+  - &red300
+    name: Red 300
+    css: "#d87870"
+  - &red400
+    name: Red 400
+    css: "#cb5951"
+  - &red500
+    name: Red 500
+    css: "#be3025"
+  - &red600
+    name: Red 600
+    css: "#98261e"
+  - &red700
+    name: Red 700
+    css: "#721d16"
+  - &red800
+    name: Red 800
+    css: "#4c140f"
+  - &red900
+    name: Red 900
+    css: "#300d0a"
+
+  ## ===== STEEL =====
+  - &steel050
+    name: Steel 050
+    css: "#f1f4f9"
+  - &steel100
+    name: Steel 100
+    css: "#e3eaf2"
+  - &steel200
+    name: Steel 200
+    css: "#b8c7d9"
+  - &steel300
+    name: Steel 300
+    css: "#93a7bf"
+  - &steel400
+    name: Steel 400
+    css: "#788da6"
+  - &steel500
+    name: Steel 500
+    css: "#5a7697"
+  - &steel600
+    name: Steel 600
+    css: "#485e78"
+  - &steel700
+    name: Steel 700
+    css: "#354659"
+  - &steel800
+    name: Steel 800
+    css: "#263546"
+  - &steel900
+    name: Steel 900
+    css: "#172433"
+
+  ## ===== TEAL =====
+  - &teal100
+    name: Teal 100
+    css: "#bae9e0"
+  - &teal200
+    name: Teal 200
+    css: "#94d3c7"
+  - &teal300
+    name: Teal 300
+    css: "#6fbcae"
+  - &teal400
+    name: Teal 400
+    css: "#49a694"
+  - &teal500
+    name: Teal 500
+    css: "#238f7b"
+  - &teal600
+    name: Teal 600
+    css: "#1e7a69"
+  - &teal700
+    name: Teal 700
+    css: "#1a6556"
+  - &teal800
+    name: Teal 800
+    css: "#155044"
+  - &teal900
+    name: Teal 900
+    css: "#103b31"
+
+  ## ===== VERMILLION =====
+  - &vermillion100
+    name: Vermillion 100
+    css: "#f7dcd4"
+  - &vermillion200
+    name: Vermillion 200
+    css: "#efb9aa"
+  - &vermillion300
+    name: Vermillion 300
+    css: "#e7957f"
+  - &vermillion400
+    name: Vermillion 400
+    css: "#df7255"
+  - &vermillion500
+    name: Vermillion 500
+    css: "#cf4513"
+  - &vermillion600
+    name: Vermillion 600
+    css: "#ac3f22"
+  - &vermillion700
+    name: Vermillion 700
+    css: "#812f1a"
+  - &vermillion800
+    name: Vermillion 800
+    css: "#5c2212"
+  - &vermillion900
+    name: Vermillion 900
+    css: "#3b160c"
+
+  ## ===== VIOLET =====
+  - &violet100
+    name: Violet 100
+    css: "#d6bee6"
+  - &violet200
+    name: Violet 200
+    css: "#b89bc9"
+  - &violet300
+    name: Violet 300
+    css: "#9b74b3"
+  - &violet400
+    name: Violet 400
+    css: "#7e5699"
+  - &violet500
+    name: Violet 500
+    css: "#653d80"
+  - &violet600
+    name: Violet 600
+    css: "#573170"
+  - &violet700
+    name: Violet 700
+    css: "#49295e"
+  - &violet800
+    name: Violet 800
+    css: "#351f45"
+  - &violet900
+    name: Violet 900
+    css: "#271733"
+
+  ## ===== YELLOW =====
+  - &yellow100
+    name: Yellow 100
+    css: "#f7eec8"
+  - &yellow200
+    name: Yellow 200
+    css: "#f6e3a0"
+  - &yellow300
+    name: Yellow 300
+    css: "#f0d78b"
+  - &yellow400
+    name: Yellow 400
+    css: "#e8c966"
+  - &yellow500
+    name: Yellow 500
+    css: "#e3b727"
+  - &yellow600
+    name: Yellow 600
+    css: "#bb9b32"
+  - &yellow700
+    name: Yellow 700
+    css: "#8c7426"
+  - &yellow800
+    name: Yellow 800
+    css: "#665314"
+  - &yellow900
+    name: Yellow 900
+    css: "#3d320f"
+
+families:
+  amber:
+    - *amber100
+    - *amber200
+    - *amber300
+    - *amber400
+    - *amber500
+    - *amber600
+    - *amber700
+    - *amber800
+    - *amber900
+  azure:
+    - *azure100
+    - *azure200
+    - *azure300
+    - *azure400
+    - *azure500
+    - *azure600
+    - *azure700
+    - *azure800
+    - *azure900
+  blue:
+    - *blue100
+    - *blue200
+    - *blue300
+    - *blue400
+    - *blue500
+    - *blue600
+    - *blue700
+    - *blue800
+    - *blue900
+  chartreuse:
+    - *chartreuse100
+    - *chartreuse200
+    - *chartreuse300
+    - *chartreuse400
+    - *chartreuse500
+    - *chartreuse600
+    - *chartreuse700
+    - *chartreuse800
+    - *chartreuse900
+  crimson:
+    - *crimson100
+    - *crimson200
+    - *crimson300
+    - *crimson400
+    - *crimson500
+    - *crimson600
+    - *crimson700
+    - *crimson800
+    - *crimson900
+  gray:
+    - *gray0
+    - *gray025
+    - *gray050
+    - *gray100
+    - *gray200
+    - *gray300
+    - *gray400
+    - *gray500
+    - *gray600
+    - *gray650
+    - *gray700
+    - *gray800
+    - *gray900
+    - *gray950
+    - *gray975
+    - *gray1000
+  green:
+    - *green100
+    - *green200
+    - *green300
+    - *green400
+    - *green500
+    - *green600
+    - *green700
+    - *green800
+    - *green900
+  indigo:
+    - *indigo100
+    - *indigo200
+    - *indigo300
+    - *indigo400
+    - *indigo500
+    - *indigo600
+    - *indigo700
+    - *indigo800
+    - *indigo900
+  orange:
+    - *orange100
+    - *orange200
+    - *orange300
+    - *orange400
+    - *orange500
+    - *orange600
+    - *orange700
+    - *orange800
+    - *orange900
+  purple:
+    - *purple100
+    - *purple200
+    - *purple300
+    - *purple400
+    - *purple500
+    - *purple600
+    - *purple700
+    - *purple800
+    - *purple900
+  red:
+    - *red100
+    - *red200
+    - *red300
+    - *red400
+    - *red500
+    - *red600
+    - *red700
+    - *red800
+    - *red900
+  steel:
+    - *steel050
+    - *steel100
+    - *steel200
+    - *steel300
+    - *steel400
+    - *steel500
+    - *steel600
+    - *steel700
+    - *steel800
+    - *steel900
+  teal:
+    - *teal100
+    - *teal200
+    - *teal300
+    - *teal400
+    - *teal500
+    - *teal600
+    - *teal700
+    - *teal800
+    - *teal900
+  vermillion:
+    - *vermillion100
+    - *vermillion200
+    - *vermillion300
+    - *vermillion400
+    - *vermillion500
+    - *vermillion600
+    - *vermillion700
+    - *vermillion800
+    - *vermillion900
+  violet:
+    - *violet100
+    - *violet200
+    - *violet300
+    - *violet400
+    - *violet500
+    - *violet600
+    - *violet700
+    - *violet800
+    - *violet900
+  yellow:
+    - *yellow100
+    - *yellow200
+    - *yellow300
+    - *yellow400
+    - *yellow500
+    - *yellow600
+    - *yellow700
+    - *yellow800
+    - *yellow900
+
+themes:
+  - name: Cool World
+    colors:
+      - *purple300
+      - *purple400
+      - *purple800
+      - *indigo200
+      - *indigo300
+      - *indigo600
+      - *blue200
+      - *blue300
+      - *blue600
+      - *teal100
+      - *teal200
+      - *teal400
+      - *chartreuse100
+      - *chartreuse200
+      - *chartreuse400
+      - *yellow100
+      - *yellow200
+      - *yellow400
+  - name: Hot Tamales
+    colors:
+      - *purple300
+      - *purple500
+      - *purple700
+      - *violet200
+      - *violet400
+      - *violet600
+      - *red200
+      - *red300
+      - *red500
+      - *vermillion200
+      - *vermillion300
+      - *vermillion500
+      - *amber200
+      - *amber300
+      - *amber500
+      - *yellow100
+      - *yellow300
+      - *yellow500
+  - name: Full Spectrum
+    colors:
+      - *red200
+      - *red400
+      - *vermillion200
+      - *vermillion400
+      - *orange200
+      - *orange400
+      - *amber200
+      - *amber400
+      - *yellow200
+      - *yellow400
+      - *chartreuse200
+      - *chartreuse400
+      - *green200
+      - *green400
+      - *teal200
+      - *teal400
+      - *blue200
+      - *blue400
+      - *azure200
+      - *azure400
+      - *indigo200
+      - *indigo400
+      - *purple200
+      - *purple400
+      - *violet200
+      - *violet400
+      - *crimson200
+      - *crimson400
+  - name: Color Family 1
+    colors:
+      - *blue200
+      - *blue400
+      - *blue700
+      - *teal200
+      - *teal400
+      - *teal700
+      - *chartreuse200
+      - *chartreuse400
+      - *chartreuse700
+      - *yellow200
+      - *yellow400
+      - *yellow700
+      - *purple200
+      - *purple400
+      - *purple800
+      - *gray050
+      - *gray100
+      - *gray300
+  - name: Color Family 2
+    colors:
+      - *azure300
+      - *azure600
+      - *azure900
+      - *red300
+      - *red500
+      - *red800
+      - *chartreuse200
+      - *chartreuse400
+      - *chartreuse700
+      - *yellow200
+      - *yellow400
+      - *yellow700
+      - *amber200
+      - *amber400
+      - *amber700
+      - *gray050
+      - *gray100
+      - *gray300
+  - name: Color Family 3
+    colors:
+      - *yellow200
+      - *yellow300
+      - *yellow400
+      - *teal200
+      - *teal300
+      - *teal500
+      - *blue200
+      - *blue400
+      - *blue800
+      - *azure200
+      - *azure400
+      - *azure900
+      - *indigo100
+      - *indigo200
+      - *indigo300
+      - *gray050
+      - *gray100
+      - *gray300
+  - name: Color Family 4
+    colors:
+      - *vermillion300
+      - *vermillion500
+      - *vermillion800
+      - *blue300
+      - *blue500
+      - *blue800
+      - *yellow200
+      - *yellow400
+      - *yellow500
+      - *chartreuse100
+      - *chartreuse300
+      - *chartreuse600
+      - *teal200
+      - *teal400
+      - *teal700
+      - *gray050
+      - *gray100
+      - *gray300
+  - name: Color Family 5
+    colors:
+      - *azure300
+      - *azure500
+      - *azure700
+      - *purple200
+      - *purple300
+      - *purple400
+      - *crimson200
+      - *crimson300
+      - *crimson400
+      - *vermillion200
+      - *vermillion300
+      - *vermillion400
+      - *yellow100
+      - *yellow300
+      - *yellow500
+      - *gray100
+      - *gray200
+      - *gray400
+  - name: Color Family 6
+    colors:
+      - *purple200
+      - *purple600
+      - *purple900
+      - *azure200
+      - *azure400
+      - *azure800
+      - *teal200
+      - *teal400
+      - *teal800
+      - *yellow200
+      - *yellow400
+      - *yellow700
+      - *gray050
+      - *gray200
+      - *gray300
+  - name: Color Family 7
+    colors:
+      - *violet200
+      - *violet300
+      - *violet500
+      - *crimson200
+      - *crimson300
+      - *crimson500
+      - *indigo200
+      - *indigo300
+      - *indigo500
+      - *teal200
+      - *teal300
+      - *teal400
+      - *gray100
+      - *gray200
+      - *gray300
+  - name: Color Family 8
+    colors:
+      - *violet200
+      - *violet300
+      - *violet500
+      - *crimson200
+      - *crimson300
+      - *crimson400
+      - *vermillion200
+      - *vermillion300
+      - *vermillion400
+      - *yellow200
+      - *yellow300
+      - *yellow400
+      - *gray100
+      - *gray200
+      - *gray300
+  - name: Color Family 9
+    colors:
+      - *teal200
+      - *teal300
+      - *teal500
+      - *blue100
+      - *blue300
+      - *blue400
+      - *yellow200
+      - *yellow400
+      - *yellow500
+      - *orange200
+      - *orange300
+      - *orange500
+      - *gray100
+      - *gray200
+      - *gray300
+  - name: Color Family 10
+    colors:
+      - *blue100
+      - *blue200
+      - *blue300
+      - *amber200
+      - *amber300
+      - *amber400
+      - *crimson200
+      - *crimson300
+      - *crimson400
+      - *vermillion200
+      - *vermillion300
+      - *vermillion400
+      - *gray100
+      - *gray200
+      - *gray300
